@@ -119,6 +119,36 @@
   }
 }
 
+/*QUIÉNES SOMOS*/
+.quienes-somos {
+  text-align: center;
+  display: flex;
+  flex-direction: column; 
+  padding-top: 3rem;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+  
+}
+
+.quienes-somos_title {
+  font-family: "Rubik", sans-serif;
+  color: #099d8d;
+  font-size: 2.4rem;
+}
+.names {
+  font-family: "Open+Sans", sans-serif;
+  color: black;
+  font-size: 2rem;
+  line-height: 4.5rem;
+}
+
+.personal_picture {
+  width: 18rem;
+  height: 18rem;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+
 /* FOOTER */
 .footer {
   text-align: center;
