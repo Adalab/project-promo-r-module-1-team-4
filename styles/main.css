@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+
+:root {
+    --black: #000;
+    --light-grey-blue: rgba(184, 184, 185, 0.1);
+    --black-8: rgba(0, 0, 0, 0.08);
+    --black-8: rgba(0, 0, 0, 0.08);
+    --aqua: #14d9c4;
+    --blue-green: #099d8d;
+    --white: #fff;
+    --cool-grey: #b8b8b9;
+    /*--open-sans: "Open+Sans";
+    --rubik: "Rubik"; Preguntar*/
+  }
+
+  
