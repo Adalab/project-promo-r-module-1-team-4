@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;   
     font-size: 62.5%;
 }
 
@@ -15,8 +16,9 @@
     --blue-green: #099d8d;
     --white: #fff;
     --cool-grey: #b8b8b9;
-    /*--open-sans: "Open+Sans";
-    --rubik: "Rubik"; Preguntar*/
+    --open-sans:'Open Sans', sans-serif;
+    --rubik: 'Rubik', sans-serif;
+  
   }
   .navegador-header{
     height: 100%;
@@ -115,4 +117,43 @@
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  border-top: solid 1px var(--cool-grey);
+  height:25rem;
+  padding: 3rem 7.4rem 4.5rem;
+}
+
+.copyright {
+  color:var(--cool-grey);
+  font-size: 1.4rem;
+  font-family: var(--open-sans);
+  height: 2rem;
+  margin: 0 0 2rem;
+}
+
+.menu-li-footer {
+  margin: 2rem 2.9rem 3rem;
+}
+
+.list-li-footer {
+  list-style: none;
+}
+
+.enlace-footer {
+  text-decoration: none;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  font-weight: 600;
+  color: var(--grey-1);
+  opacity: 0.75;
+  font-family: var(--open-sans);
+}
+
+.logo {
+  height: 4.5rem;
+  width:11.59rem;
 }
