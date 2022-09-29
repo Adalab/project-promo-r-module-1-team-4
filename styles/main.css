@@ -10,6 +10,7 @@
     --light-grey-blue: rgba(184, 184, 185, 0.1);
     --black-8: rgba(0, 0, 0, 0.08);
     --black-8: rgba(0, 0, 0, 0.08);
+    --grey-1: #54585a;
     --aqua: #14d9c4;
     --blue-green: #099d8d;
     --white: #fff;
@@ -45,5 +46,73 @@
     margin-top: 1em;  
   }
 
+.equipo{
+  margin: 0 2.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 100;
+}
 
-  
+.equipo-title{
+  color: var(--aqua);
+  font-family: "Rubik", sans-serif;
+  font-size: 2.4rem;
+  line-height: 4rem;
+}
+
+.main-p{
+  color: var(--grey-1);
+  font-family: "Open+Sans", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.contenedor-fortalezas-debilidades{
+  background-color: rgba(184, 184, 185, 0.2);
+  position: relative;
+}
+
+.fortalezas-debilidades{
+  margin: 0 2.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-bottom: 4rem;
+}
+
+.white-square{
+  background-color: white;
+  width: 4rem;
+  height: 4rem;
+  align-self: center;
+  position: relative;
+  margin: 0 auto;
+  transform: translate(0rem, -2rem) rotate(45deg);
+}
+
+.fort-deb-title{
+  color: #099d8d;
+  font-family: "Rubik", sans-serif;
+  font-size: 2.2rem;
+  line-height: 4.5rem;
+}
+
+@media (min-width:768px){
+
+  .fortalezas-debilidades{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 5rem;
+  }
+
+  .equipo{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
