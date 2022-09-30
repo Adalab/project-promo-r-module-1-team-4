@@ -158,6 +158,8 @@
 }
 
 .texto-lema {
+  font-family: var(--open-sans);
+  font-weight: 600;
   width: auto;
   padding: 14px 15px 16px;
   font-size: 3rem;
