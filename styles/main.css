@@ -1,54 +1,51 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;   
-    font-size: 62.5%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
 
-
 :root {
-    --black: #000;
-    --light-grey-blue: rgba(184, 184, 185, 0.1);
-    --black-8: rgba(0, 0, 0, 0.08);
-    --black-8: rgba(0, 0, 0, 0.08);
-    --grey-1: #54585a;
-    --aqua: #14d9c4;
-    --blue-green: #099d8d;
-    --white: #fff;
-    --cool-grey: #b8b8b9;
-    --open-sans:'Open Sans', sans-serif;
-    --rubik: 'Rubik', sans-serif;
-  
-  }
-  .navegador-header{
-    height: 100%;
-    background-color: var(--blue-green);
-    position: sticky;
-    top: 0;
-  }
-  .titulo-header{
-    color: var(--white);
-    font-size: 16px;
-    line-height: 30px;
-    text-align: center;
-  }
-  .nav-header {
-    display: flex;
-    background-color: var(--aqua);
-    justify-content: space-around;
-    flex-wrap: nowrap;
-    flex-direction: row;
+  --black: #000;
+  --light-grey-blue: rgba(184, 184, 185, 0.1);
+  --black-8: rgba(0, 0, 0, 0.08);
+  --black-8: rgba(0, 0, 0, 0.08);
+  --grey-1: #54585a;
+  --aqua: #14d9c4;
+  --blue-green: #099d8d;
+  --white: #fff;
+  --cool-grey: #b8b8b9;
+  --open-sans: "Open Sans", sans-serif;
+  --rubik: "Rubik", sans-serif;
+}
+.navegador-header {
+  height: 100%;
+  background-color: var(--blue-green);
+  position: sticky;
+  top: 0;
+}
+.titulo-header {
+  color: var(--white);
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+}
+.nav-header {
+  display: flex;
+  background-color: var(--aqua);
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.nav-header-li {
+  color: var(--white);
+  height: 30px;
+  font-size: 15px;
+  list-style: none;
+  margin-top: 1em;
+}
 
-  }
-  .nav-header-li{
-    color: var(--white);
-    height: 30px;
-    font-size: 15px;
-    list-style: none;
-    margin-top: 1em;  
-  }
-
-.equipo{
+.equipo {
   margin: 0 2.5rem;
   text-align: center;
   display: flex;
@@ -59,26 +56,26 @@
   z-index: 100;
 }
 
-.equipo-title{
+.equipo-title {
   color: var(--aqua);
   font-family: "Rubik", sans-serif;
   font-size: 2.4rem;
   line-height: 4rem;
 }
 
-.main-p{
+.main-p {
   color: var(--grey-1);
   font-family: "Open+Sans", sans-serif;
   font-size: 1.6rem;
   line-height: 2.4rem;
 }
 
-.contenedor-fortalezas-debilidades{
+.contenedor-fortalezas-debilidades {
   background-color: rgba(184, 184, 185, 0.2);
   position: relative;
 }
 
-.fortalezas-debilidades{
+.fortalezas-debilidades {
   margin: 0 2.5rem;
   text-align: center;
   display: flex;
@@ -87,7 +84,7 @@
   padding-bottom: 4rem;
 }
 
-.white-square{
+.white-square {
   background-color: white;
   width: 4rem;
   height: 4rem;
@@ -97,23 +94,22 @@
   transform: translate(0rem, -2rem) rotate(45deg);
 }
 
-.fort-deb-title{
+.fort-deb-title {
   color: #099d8d;
   font-family: "Rubik", sans-serif;
   font-size: 2.2rem;
   line-height: 4.5rem;
 }
 
-@media (min-width:768px){
-
-  .fortalezas-debilidades{
+@media (min-width: 768px) {
+  .fortalezas-debilidades {
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding-bottom: 5rem;
   }
 
-  .equipo{
+  .equipo {
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
@@ -123,11 +119,10 @@
 .quienes-somos {
   text-align: center;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   padding-top: 3rem;
   padding-left: 4.5rem;
   padding-right: 4.5rem;
-  
 }
 
 .quienes-somos_title {
@@ -153,12 +148,12 @@
 .footer {
   text-align: center;
   border-top: solid 1px var(--cool-grey);
-  height:25rem;
+  height: 25rem;
   padding: 3rem 7.4rem 4.5rem;
 }
 
 .copyright {
-  color:var(--cool-grey);
+  color: var(--cool-grey);
   font-size: 1.4rem;
   font-family: var(--open-sans);
   height: 2rem;
@@ -185,11 +180,11 @@
 
 .logo {
   height: 4.5rem;
-  width:11.59rem;
+  width: 11.59rem;
 }
 
 .contenedor-lema {
-  background-image: url("../images/viajes.jpg");
+  background-image: url("../images/viajesyfotografia.jpeg");
   align-items: center;
   max-width: 100vw;
   height: 50vh;
