@@ -230,4 +230,20 @@
     color: var(--blue-green);
     padding-bottom: 0.5rem;
   }
+
+  /* FOOTER */
+
+  .menu-li-footer {
+    text-align: right;
+  }
+
+  .footer {
+    text-align: left;
+    padding: 2.4rem 4.5rem 5.6rem;
+  }
+
+  .menu-li-footer {
+    margin: 0;
+  }
+  /* rebicar copy y logo */
 }
