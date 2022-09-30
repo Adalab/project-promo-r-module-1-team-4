@@ -45,38 +45,49 @@
   margin-top: 1em;
 }
 
+/* EQUIPO*/
 .equipo {
-  margin: 0 2.5rem;
+  margin: 3rem 1.5rem 3rem 1.5rem;
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  margin-bottom: 2rem;
-  position: relative;
-  z-index: 100;
+  gap: 1.5rem;
+  /*z-index: 100;*/
 }
 
 .equipo-title {
   color: var(--aqua);
-  font-family: "Rubik", sans-serif;
+  font-family: var(--rubik);
+  font-weight: 500;
   font-size: 2.4rem;
-  line-height: 4rem;
+  line-height: 4.5rem;
 }
 
 .main-p {
   color: var(--grey-1);
-  font-family: "Open+Sans", sans-serif;
+  font-family: var(--open-sans);
   font-size: 1.6rem;
   line-height: 2.4rem;
 }
 
+/* FORTALEZAS-DEBILIDADES*/
 .contenedor-fortalezas-debilidades {
   background-color: rgba(184, 184, 185, 0.2);
   position: relative;
 }
 
+.white-square {
+  background-color: white;
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+  margin: 0 auto;
+  transform: translateY(-50%) rotate(45deg);
+  overflow: hidden;
+}
+
 .fortalezas-debilidades {
-  margin: 0 2.5rem;
+  margin: 0 1.5rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -84,35 +95,12 @@
   padding-bottom: 4rem;
 }
 
-.white-square {
-  background-color: white;
-  width: 4rem;
-  height: 4rem;
-  align-self: center;
-  position: relative;
-  margin: 0 auto;
-  transform: translate(0rem, -2rem) rotate(45deg);
-}
-
 .fort-deb-title {
   color: #099d8d;
-  font-family: "Rubik", sans-serif;
+  font-family: var(--rubik);
+  font-weight: 500;
   font-size: 2.2rem;
   line-height: 4.5rem;
-}
-
-@media (min-width: 768px) {
-  .fortalezas-debilidades {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-bottom: 5rem;
-  }
-
-  .equipo {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
 }
 
 /*QUIÉNES SOMOS*/
@@ -206,4 +194,40 @@
 .logo {
   height: 4.5rem;
   width: 11.59rem;
+}
+
+
+/*MEDIA QUERIES*/
+
+/*EQUIPO*/
+
+@media (min-width: 768px) {
+  
+  .equipo {
+    margin: 4.5rem 4.5rem 6rem 4.5rem;
+  }
+
+  .equipo-title {
+    color: var(--blue-green);
+  }
+
+  .equipo .main-p{
+    color:rgba(84, 88, 90, 0.67);
+  }
+
+  .fortalezas-debilidades {
+    margin: 0 4.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 6rem;
+  }
+
+  .fort-deb-title{
+    color: var(--blue-green);
+    padding-bottom: 0.5rem;
+  }
+
 }
