@@ -231,11 +231,9 @@
     color: var(--blue-green);
     padding-bottom: 0.5rem;
   }
-}
 
-/* FOOTER */
+  /* FOOTER */
 
-@media (min-width: 768px) {
   .menu-li-footer {
     text-align: right;
   }
