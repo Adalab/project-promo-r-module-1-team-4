@@ -208,6 +208,10 @@
   font-family: var(--open-sans);
 }
 
+.enlace-footer:hover {
+  color: var(--cool-grey);
+}
+
 .logo {
   height: 4.5rem;
   width: 11.59rem;
