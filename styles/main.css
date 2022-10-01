@@ -70,17 +70,18 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  box-sizing: border-box;
 }
 
 .texto-lema {
   font-family: var(--open-sans);
   font-weight: 600;
-  padding: 14px 15px 16px;
+  padding: 2.4rem 1.5rem 1.6rem;
   font-size: 3rem;
   color: var(--black);
   background-color: var(--white);
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
   margin-bottom: 0;
   opacity: 0.8;
 }
