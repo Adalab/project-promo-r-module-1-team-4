@@ -184,12 +184,14 @@
   color: var(--cool-grey);
   font-size: 1.4rem;
   font-family: var(--open-sans);
-  height: 2rem;
+  /* height: 2rem; */
   margin: 0 0 2rem;
+  line-height: 1.43;
 }
 
 .menu-li-footer {
   margin: 2rem 2.9rem 3rem;
+  line-height: 2rem;
 }
 
 .list-li-footer {
@@ -216,20 +218,19 @@
 /*EQUIPO*/
 
 @media (min-width: 768px) {
-  .navegador-header{
+  .navegador-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-  
-  .nav-header{
+  }
+
+  .nav-header {
     background-color: var(--blue-green);
   }
-  .nav-header-link{
+  .nav-header-link {
     margin: 1em;
     margin-left: 2em;
     margin-right: 2em;
-
   }
   .equipo {
     margin: 4.5rem 4.5rem 6rem 4.5rem;
@@ -260,17 +261,36 @@
 
   /* FOOTER */
 
-  .menu-li-footer {
-    text-align: right;
-  }
-
   .footer {
-    text-align: left;
     padding: 2.4rem 4.5rem 5.6rem;
+    text-align: left;
+    height: 17rem;
   }
 
   .menu-li-footer {
     margin: 0;
+    width: 50%;
+    height: 9rem;
+    text-align: right;
+    position: absolute;
+    right: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
-  /* rebicar copy y logo */
 
+  .copyright {
+    padding-top: 0.6rem;
+    letter-spacing: normal;
+    position: absolute;
+    /* line-height: 1.43;
+    width: 17.2rem; */
+  }
+
+  .logo {
+    position: relative;
+    top: 4.1rem;
+    margin-bottom: 0.4rem;
+    text-align: left;
+  }
+}
