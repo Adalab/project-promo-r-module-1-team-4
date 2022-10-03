@@ -24,7 +24,7 @@
   position: sticky;
   top: 0;
   z-index: 200;
-  padding: 2em;
+  width: 100vw;
 }
 .titulo-header {
   color: var(--white);
