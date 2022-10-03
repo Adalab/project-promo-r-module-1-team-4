@@ -18,12 +18,13 @@
   --open-sans: "Open Sans", sans-serif;
   --rubik: "Rubik", sans-serif;
 }
-.contenedor-header {
+.navegador-header {
+  height: 100%;
   background-color: var(--blue-green);
-  position: fixed;
-  z-index: 99;
-  width: 100%;
-  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  width: 100vw;
 }
 .titulo-header {
   color: var(--white);
@@ -32,52 +33,59 @@
   text-align: center;
   font-family: var(--rubik);
   font-weight: 300;
-  padding: 1.7rem;
-  text-transform: uppercase;
+  margin-top: 0px;
 }
 .nav-header {
   display: flex;
   background-color: var(--aqua);
   flex-wrap: nowrap;
   list-style: none;
+  margin: 30px 0 0;
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
   height: 45px;
   opacity: 0.9;
 }
-.link {
-  font-family: var(--rubik);
-  font-size: 15px;
-  line-height: 30px;
-}
-.enlace {
-  text-decoration: none;
+.nav-header-link {
   color: var(--white);
-  text-transform: uppercase;
+  height: 30px;
+  font-size: 15px;
+  margin-top: 1em;
+  text-decoration: none;
+  font-family: var(--rubik);
+  font-weight: 400;
 }
 
-.caja-lema {
+/* LEMA*/
+
+.contenedor-lema {
+  background-image: url("../images/viajesyfotografia1.jpg");
+  align-items: center;
+  max-width: 100vw;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
   display: flex;
   flex-direction: column;
-  background-color: var(--white);
-  margin: 387px 15px 0;
-  padding: 0.875rem 0.938rem 1rem;
-  margin-bottom: -3rem;
-  align-items: center;
-  /* margin-left: 1.5rem;
-  margin-right: 1.5rem;
-   padding: 0.875rem 0.938rem 1rem 0.938rem; */
+  justify-content: flex-end;
 }
 
 .texto-lema {
+  display: flex;
+  flex-direction: column;
   font-family: var(--open-sans);
   font-weight: 600;
-  text-align: left;
-  font-size: 18px;
+  text-align: center;
+  align-items: center;
+  padding: 0.875rem 0.938rem 1rem 0.938rem;
+  font-size: 3rem;
   color: var(--black);
-  line-height: 25px;
-  letter-spacing: normal;
+  background-color: var(--white);
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: -3rem;
 }
 
 /* EQUIPO*/
