@@ -34,7 +34,6 @@
   font-weight: 300;
   padding: 1.7rem;
   text-transform: uppercase;
-  
 }
 .nav-header {
   display: flex;
@@ -47,17 +46,16 @@
   height: 45px;
   opacity: 0.9;
 }
-.link{
+.link {
   font-family: var(--rubik);
   font-size: 15px;
   line-height: 30px;
 }
-.enlace{
+.enlace {
   text-decoration: none;
   color: var(--white);
   text-transform: uppercase;
 }
-
 
 .caja-lema {
   display: flex;
@@ -65,7 +63,7 @@
   background-color: var(--white);
   margin: 387px 15px 0;
   padding: 0.875rem 0.938rem 1rem;
-  margin-bottom: -3rem; 
+  margin-bottom: -3rem;
   align-items: center;
   /* margin-left: 1.5rem;
   margin-right: 1.5rem;
@@ -80,8 +78,6 @@
   color: var(--black);
   line-height: 25px;
   letter-spacing: normal;
-  ;
-
 }
 
 /* EQUIPO*/
@@ -317,3 +313,4 @@
     margin-bottom: 0.4rem;
     text-align: left;
   }
+}
