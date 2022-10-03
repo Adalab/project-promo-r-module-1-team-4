@@ -25,7 +25,6 @@
   top: 0;
   z-index: 200;
   width: 100vw;
-  
 }
 .titulo-header {
   color: var(--white);
@@ -35,7 +34,6 @@
   font-family: var(--rubik);
   font-weight: 300;
   margin-top: 0px;
-  
 }
 .nav-header {
   display: flex;
@@ -72,22 +70,22 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  box-sizing: border-box;
 }
 
 .texto-lema {
+  display: flex;
+  flex-direction: column;
   font-family: var(--open-sans);
   font-weight: 600;
   text-align: center;
-  padding: 2.4rem 1.5rem 1.6rem;
+  align-items: center;
+  padding: 0.875rem 0.938rem 1rem 0.938rem;
   font-size: 3rem;
   color: var(--black);
   background-color: var(--white);
   margin-left: 1.5rem;
   margin-right: 1.5rem;
-  position: relative;
-  bottom: -40px;
-  gap: 1.5rem;
+  margin-bottom: -50px;
 }
 
 /* EQUIPO*/
@@ -323,4 +321,3 @@
     margin-bottom: 0.4rem;
     text-align: left;
   }
-}
