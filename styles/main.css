@@ -72,20 +72,29 @@
   justify-content: flex-end;
 }
 
-.texto-lema {
+.caja-lema {
   display: flex;
   flex-direction: column;
+  background-color: var(--white);
+  margin: 387px 15px 0;
+  padding: 0.875rem 0.938rem 1rem;
+  margin-bottom: -3rem; 
+  align-items: center;
+  /* margin-left: 1.5rem;
+  margin-right: 1.5rem;
+   padding: 0.875rem 0.938rem 1rem 0.938rem; */
+}
+
+.texto-lema {
   font-family: var(--open-sans);
   font-weight: 600;
-  text-align: center;
-  align-items: center;
-  padding: 0.875rem 0.938rem 1rem 0.938rem;
-  font-size: 3rem;
+  text-align: left;
+  font-size: 18px;
   color: var(--black);
-  background-color: var(--white);
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-  margin-bottom: -3rem;
+  line-height: 25px;
+  letter-spacing: normal;
+  ;
+
 }
 
 /* EQUIPO*/
