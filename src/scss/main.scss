@@ -196,6 +196,13 @@
   display: flex;
   margin: 1rem;
 }
+.list_ul_li:not(:last-child):after  {
+  content: "·";
+  font-size: 2rem;
+  color: #099d8d;
+  margin: 0 auto;
+  transform: translate(170%,-20%);
+}
 
 .fa-brands,
 .fa-solid {
@@ -251,7 +258,7 @@
   scroll-margin-top: 120px;
 }
 
-/*EQUIPO*/
+/*MEDIA QUERIES*/
 
 @media (min-width: 768px) {
   .navegador-header {
@@ -270,6 +277,9 @@
   .nav-header-link {
     margin: 1.125rem;
   }
+
+  /*EQUIPO*/
+
   .equipo {
     margin: 4.5rem 4.5rem 6rem 4.5rem;
   }
