@@ -2,20 +2,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 62.5%;
 }
 
 :root {
+    font-family: "Open Sans", sans-serif;
+    font-size: 62.5%;
+    background-color: #fff;
   --black: #000;
   --light-grey-blue: rgba(184, 184, 185, 0.1);
-  --black-8: rgba(0, 0, 0, 0.08);
   --black-8: rgba(0, 0, 0, 0.08);
   --grey-1: #54585a;
   --aqua: #14d9c4;
   --blue-green: #099d8d;
   --white: #fff;
   --cool-grey: #b8b8b9;
-  --open-sans: "Open Sans", sans-serif;
   --rubik: "Rubik", sans-serif;
 }
 .navegador-header {
@@ -75,7 +75,6 @@
 .texto-lema {
   display: flex;
   flex-direction: column;
-  font-family: var(--open-sans);
   font-weight: 600;
   text-align: center;
   align-items: center;
@@ -108,7 +107,6 @@
 
 .main-p {
   color: var(--grey-1);
-  font-family: var(--open-sans);
   font-size: 1.6rem;
   line-height: 2.4rem;
 }
@@ -163,7 +161,6 @@
 }
 
 .names {
-  font-family: var(--open-sans);
   color: black;
   font-size: 2rem;
   line-height: 4.5rem;
@@ -207,7 +204,6 @@
 .copyright {
   color: var(--cool-grey);
   font-size: 1.4rem;
-  font-family: var(--open-sans);
   /* height: 2rem; */
   margin: 0 0 2rem;
   line-height: 1.43;
@@ -229,7 +225,6 @@
   font-weight: 600;
   color: var(--grey-1);
   opacity: 0.75;
-  font-family: var(--open-sans);
 }
 
 .enlace-footer:hover {
