@@ -74,24 +74,23 @@
   background-image: url("../images/viajesyfotografia1.jpg");
   align-items: center;
   max-width: 100vw;
-  height: 60vh;
+  height: 50vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin-bottom: 46px;
 }
 
 .texto-lema {
   display: flex;
   flex-direction: column;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
   align-items: center;
   padding: 0.875rem 0.938rem 1rem 0.938rem;
-  font-size: 18px;
+  font-size: 3rem;
   color: var(--black);
   background-color: var(--white);
   margin-left: 1.5rem;
@@ -197,6 +196,13 @@
   display: flex;
   margin: 1rem;
 }
+.list_ul_li:not(:last-child):after  {
+  content: "·";
+  font-size: 2rem;
+  color: #099d8d;
+  margin: 0 auto;
+  transform: translate(170%,-20%);
+}
 
 .fa-brands,
 .fa-solid {
@@ -247,9 +253,12 @@
   width: 11.59rem;
 }
 
-/*MEDIA QUERIES*/
+#equipo,
+#quienes-somos {
+  scroll-margin-top: 120px;
+}
 
-/*EQUIPO*/
+/*MEDIA QUERIES*/
 
 @media (min-width: 768px) {
   .navegador-header {
@@ -266,6 +275,9 @@
     margin-left: 2em;
     margin-right: 2em;
   }
+
+  /*EQUIPO*/
+
   .equipo {
     margin: 4.5rem 4.5rem 6rem 4.5rem;
   }
@@ -318,7 +330,7 @@
     letter-spacing: normal;
     position: absolute;
     /* line-height: 1.43;
-    width: 17.2rem; */
+      width: 17.2rem; */
   }
 
   .logo {
