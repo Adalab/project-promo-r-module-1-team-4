@@ -256,14 +256,16 @@
       justify-content: space-between;
       align-items: center;
     }
+    .titulo-header{
+      margin-left:2.81rem;
+    }
   
     .nav-header {
       background-color: var(--blue-green);
+      margin-right: 2.81rem;
     }
     .nav-header-link {
-      margin: 1em;
-      margin-left: 2em;
-      margin-right: 2em;
+      margin: 1.125rem;
     }
     .equipo {
       margin: 4.5rem 4.5rem 6rem 4.5rem;
