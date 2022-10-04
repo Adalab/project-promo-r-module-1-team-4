@@ -65,13 +65,14 @@
   background-image: url("../images/viajesyfotografia1.jpg");
   align-items: center;
   max-width: 100vw;
-  height: 50vh;
+  height: 60vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  margin-bottom: 46px;
 }
 
 .texto-lema {
