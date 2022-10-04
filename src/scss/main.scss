@@ -1,0 +1,330 @@
+// @import 'core/variables';
+// @import 'core/reset';
+// @import 'components/code';
+// @import 'components/links';
+// @import 'layout/page';
+// @import 'layout/header';
+// @import 'layout/footer';
+// @import 'pages/index';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+      font-family: "Open Sans", sans-serif;
+      font-size: 62.5%;
+      background-color: #fff;
+    --black: #000;
+    --light-grey-blue: rgba(184, 184, 185, 0.1);
+    --black-8: rgba(0, 0, 0, 0.08);
+    --grey-1: #54585a;
+    --aqua: #14d9c4;
+    --blue-green: #099d8d;
+    --white: #fff;
+    --cool-grey: #b8b8b9;
+    --rubik: "Rubik", sans-serif;
+  }
+  .navegador-header {
+    height: 100%;
+    background-color: var(--blue-green);
+    position: sticky;
+    top: 0;
+    z-index: 200;
+    width: 100vw;
+  }
+  .titulo-header {
+    color: var(--white);
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    font-family: var(--rubik);
+    font-weight: 300;
+    margin-top: 0px;
+    padding: 1.7rem;
+    text-transform: uppercase;
+  }
+  .nav-header {
+    display: flex;
+    background-color: var(--aqua);
+    flex-wrap: nowrap;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    opacity: 0.9;
+  }
+  .nav-header-link {
+    color: var(--white);
+    height: 30px;
+    font-size: 15px;
+    margin-top: 1em;
+    text-decoration: none;
+    font-family: var(--rubik);
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  
+  /* LEMA*/
+  
+  .contenedor-lema {
+    background-image: url("../images/viajesyfotografia1.jpg");
+    align-items: center;
+    max-width: 100vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  .texto-lema {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    padding: 0.875rem 0.938rem 1rem 0.938rem;
+    font-size: 3rem;
+    color: var(--black);
+    background-color: var(--white);
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: -3rem;
+  }
+  
+  /* EQUIPO*/
+  .equipo {
+    margin: 3rem 1.5rem 3rem 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    /*z-index: 100;*/
+  }
+  
+  .equipo-title {
+    color: var(--aqua);
+    font-family: var(--rubik);
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 4.5rem;
+  }
+  
+  .main-p {
+    color: var(--grey-1);
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+  
+  /* FORTALEZAS-DEBILIDADES*/
+  .contenedor-fortalezas-debilidades {
+    background-color: rgba(184, 184, 185, 0.2);
+    position: relative;
+  }
+  
+  .white-square {
+    background-color: white;
+    width: 3rem;
+    height: 3rem;
+    position: relative;
+    margin: 0 auto;
+    transform: translateY(-50%) rotate(45deg);
+    overflow: hidden;
+  }
+  
+  .fortalezas-debilidades {
+    margin: 0 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 4rem;
+  }
+  
+  .fort-deb-title {
+    color: #099d8d;
+    font-family: var(--rubik);
+    font-weight: 500;
+    font-size: 2.2rem;
+    line-height: 4.5rem;
+  }
+  
+  /*QUIÉNES SOMOS*/
+  .quienes-somos {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+  }
+  
+  .quienes-somos_title {
+    font-family: var(--rubik);
+    color: #099d8d;
+    font-size: 2.4rem;
+  }
+  
+  .names {
+    color: black;
+    font-size: 2rem;
+    line-height: 4.5rem;
+  }
+  
+  .personal_picture {
+    width: 18rem;
+    height: 18rem;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  .list_ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 4.5rem;
+  }
+  
+  .list_ul_li {
+    display: flex;
+    margin: 1rem;
+  }
+  
+  .fa-brands,
+  .fa-solid {
+    color: #099d8d;
+    font-size: 1.6rem;
+  }
+  
+  /* FOOTER */
+  .footer {
+    text-align: center;
+    border-top: solid 1px var(--cool-grey);
+    height: 25rem;
+    padding: 3rem 7.4rem 4.5rem;
+  }
+  
+  .copyright {
+    color: var(--cool-grey);
+    font-size: 1.4rem;
+    /* height: 2rem; */
+    margin: 0 0 2rem;
+    line-height: 1.43;
+  }
+  
+  .menu-li-footer {
+    margin: 2rem 2.9rem 3rem;
+    line-height: 2rem;
+  }
+  
+  .list-li-footer {
+    list-style: none;
+  }
+  
+  .enlace-footer {
+    text-decoration: none;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 600;
+    color: var(--grey-1);
+    opacity: 0.75;
+  }
+  
+  .enlace-footer:hover {
+    color: var(--cool-grey);
+  }
+  
+  .logo {
+    height: 4.5rem;
+    width: 11.59rem;
+  }
+  
+  /*MEDIA QUERIES*/
+  
+  /*EQUIPO*/
+  
+  @media (min-width: 768px) {
+    .navegador-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .nav-header {
+      background-color: var(--blue-green);
+    }
+    .nav-header-link {
+      margin: 1em;
+      margin-left: 2em;
+      margin-right: 2em;
+    }
+    .equipo {
+      margin: 4.5rem 4.5rem 6rem 4.5rem;
+    }
+  
+    .equipo-title {
+      color: var(--blue-green);
+    }
+  
+    .equipo .main-p {
+      color: rgba(84, 88, 90, 0.67);
+    }
+  
+    .fortalezas-debilidades {
+      margin: 0 4.5rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 4.5rem;
+      padding-top: 0.5rem;
+      padding-bottom: 6rem;
+    }
+  
+    .fort-deb-title {
+      color: var(--blue-green);
+      padding-bottom: 0.5rem;
+    }
+  
+    /* FOOTER */
+  
+    .footer {
+      padding: 2.4rem 4.5rem 5.6rem;
+      text-align: left;
+      height: 17rem;
+    }
+  
+    .menu-li-footer {
+      margin: 0;
+      width: 50%;
+      height: 9rem;
+      text-align: right;
+      position: absolute;
+      right: 4.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .copyright {
+      padding-top: 0.6rem;
+      letter-spacing: normal;
+      position: absolute;
+      /* line-height: 1.43;
+      width: 17.2rem; */
+    }
+  
+    .logo {
+      position: relative;
+      top: 4.1rem;
+      margin-bottom: 0.4rem;
+      text-align: left;
+    }
+  }
+  
