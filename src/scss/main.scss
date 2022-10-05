@@ -182,13 +182,13 @@
     flex-direction: row;
     justify-content: center;
     gap: 4.5rem;
-    padding-top: 0.5rem;
+    padding-top: 2rem;
     padding-bottom: 6rem;
   }
 
   .fort-deb-title {
     color: var(--blue-green);
-    padding-bottom: 0.5rem;
+    padding-bottom: 1.5rem;
   }
 
   /* FOOTER */
@@ -225,4 +225,21 @@
     margin-bottom: 0.4rem;
     text-align: left;
   }
+}
+
+
+@media (min-width: 1200px){
+
+  /*EQUIPO*/
+
+  .equipo {
+    margin-left: 30rem;
+    margin-right: 30rem;
+  }
+
+  .fortalezas-debilidades {
+    margin-right: 13.9rem;
+    margin-left: 13.9rem;
+  }
+
 }
