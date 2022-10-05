@@ -1,0 +1,56 @@
+/* EQUIPO*/
+.equipo {
+    margin: 3rem 1.5rem 3rem 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    /*z-index: 100;*/
+  }
+  
+  .equipo-title {
+    color: var(--aqua);
+    font-family: var(--rubik);
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 4.5rem;
+  }
+  
+  .main-p {
+    color: var(--grey-1);
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+  
+  /* FORTALEZAS-DEBILIDADES*/
+  .contenedor-fortalezas-debilidades {
+    background-color: rgba(184, 184, 185, 0.2);
+    position: relative;
+  }
+  
+  .white-square {
+    background-color: white;
+    width: 3rem;
+    height: 3rem;
+    position: relative;
+    margin: 0 auto;
+    transform: translateY(-50%) rotate(45deg);
+    overflow: hidden;
+  }
+  
+  .fortalezas-debilidades {
+    margin: 0 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 4rem;
+  }
+  
+  .fort-deb-title {
+    color: #099d8d;
+    font-family: var(--rubik);
+    font-weight: 500;
+    font-size: 2.2rem;
+    line-height: 4.5rem;
+  }
