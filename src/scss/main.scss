@@ -7,34 +7,14 @@
 // @import 'layout/footer';
 // @import 'pages/index';
 
-@import 'core/variables';
-@import 'core/reset';
-@import 'layout/header';
-@import 'layout/lema';
-@import 'layout/equipo';
-@import 'layout/aboutus';
-@import 'layout/footer';
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-:root {
-  font-family: "Open Sans", sans-serif;
-  font-size: 62.5%;
-  background-color: #fff;
-  --black: #000;
-  --light-grey-blue: rgba(184, 184, 185, 0.1);
-  --black-8: rgba(0, 0, 0, 0.08);
-  --grey-1: #54585a;
-  --aqua: #14d9c4;
-  --blue-green: #099d8d;
-  --white: #fff;
-  --cool-grey: #b8b8b9;
-  --rubik: "Rubik", sans-serif;
-}
+@import "core/variables";
+@import "core/reset";
+@import "components/scroll";
+@import "layout/header";
+@import "layout/lema";
+@import "layout/equipo";
+@import "layout/aboutus";
+@import "layout/footer";
 
 /* LEMA*/
 
@@ -64,54 +44,6 @@
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   margin-bottom: -3rem;
-}
-
-/* FOOTER */
-.footer {
-  text-align: center;
-  border-top: solid 1px var(--cool-grey);
-  height: 25rem;
-  padding: 3rem 7.4rem 4.5rem;
-}
-
-.copyright {
-  color: var(--cool-grey);
-  font-size: 1.4rem;
-  /* height: 2rem; */
-  margin: 0 0 2rem;
-  line-height: 1.43;
-}
-
-.menu-li-footer {
-  margin: 2rem 2.9rem 3rem;
-  line-height: 2rem;
-}
-
-.list-li-footer {
-  list-style: none;
-}
-
-.enlace-footer {
-  text-decoration: none;
-  font-size: 1.4rem;
-  line-height: 2rem;
-  font-weight: 600;
-  color: var(--grey-1);
-  opacity: 0.75;
-}
-
-.enlace-footer:hover {
-  color: var(--cool-grey);
-}
-
-.logo {
-  height: 4.5rem;
-  width: 11.59rem;
-}
-
-#equipo,
-#quienes-somos {
-  scroll-margin-top: 120px;
 }
 
 /*MEDIA QUERIES*/

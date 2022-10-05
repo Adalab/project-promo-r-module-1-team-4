@@ -1,8 +1,42 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+/* FOOTER */
+.footer {
+  text-align: center;
+  border-top: solid 1px var(--cool-grey);
+  height: 25rem;
+  padding: 3rem 7.4rem 4.5rem;
+}
+
+.copyright {
+  color: var(--cool-grey);
+  font-size: 1.4rem;
+  /* height: 2rem; */
+  margin: 0 0 2rem;
+  line-height: 1.43;
+}
+
+.menu-li-footer {
+  margin: 2rem 2.9rem 3rem;
+  line-height: 2rem;
+}
+
+.list-li-footer {
+  list-style: none;
+}
+
+.enlace-footer {
+  text-decoration: none;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  font-weight: 600;
+  color: var(--grey-1);
+  opacity: 0.75;
+}
+
+.enlace-footer:hover {
+  color: var(--cool-grey);
+}
+
+.logo {
+  height: 4.5rem;
+  width: 11.59rem;
 }
