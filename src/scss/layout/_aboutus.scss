@@ -1,0 +1,54 @@
+/*QUIÉNES SOMOS*/
+.quienes-somos {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+}
+
+.quienes-somos_title {
+  font-family: var(--rubik);
+  color: #099d8d;
+  font-size: 2.4rem;
+}
+
+.names {
+  color: black;
+  font-size: 2rem;
+  line-height: 4.5rem;
+}
+
+.personal_picture {
+  width: 18rem;
+  height: 18rem;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+.list_ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  margin-bottom: 4.5rem;
+}
+
+.list_ul_li {
+  display: flex;
+  margin: 1rem;
+}
+.list_ul_li:not(:last-child):after {
+  content: "·";
+  font-size: 2rem;
+  color: #099d8d;
+  margin: 0 auto;
+  transform: translate(170%, -20%);
+}
+
+.fa-brands,
+.fa-solid {
+  color: #099d8d;
+  font-size: 1.6rem;
+}
