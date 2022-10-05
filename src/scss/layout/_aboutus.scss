@@ -52,3 +52,21 @@
   color: #099d8d;
   font-size: 1.6rem;
 }
+
+@media (min-width: 768px) {
+  .article {
+    display: flex;
+  }
+  .text_container {
+    text-align: left;
+  }
+  .text_container_right {
+    text-align: right;
+  }
+  .picture2 {
+    order: 1;
+  }
+  .list_ul {
+    padding-right: 36.3rem;
+  }
+}
