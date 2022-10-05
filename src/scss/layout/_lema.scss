@@ -1,0 +1,29 @@
+/* LEMA*/
+
+.contenedor-lema {
+  background-image: url("../images/viajesyfotografia1.jpg");
+  align-items: center;
+  max-width: 100vw;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.texto-lema {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  text-align: center;
+  align-items: center;
+  padding: 0.875rem 0.938rem 1rem 0.938rem;
+  font-size: 3rem;
+  color: var(--black);
+  background-color: var(--white);
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: -3rem;
+}
