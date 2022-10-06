@@ -18,6 +18,7 @@
 
 /* LEMA*/
 
+/*
 .contenedor-lema {
   background-image: url("../images/viajesyfotografia1.jpg");
   align-items: center;
@@ -44,7 +45,7 @@
   margin-left: 3rem;
   margin-right: 3rem;
   margin-bottom: -1.6rem;
-}
+}*/
 
 /*MEDIA QUERIES*/
 
@@ -98,6 +99,7 @@
     margin-left: 0;
     margin-bottom: 0;
     opacity: 0.8;
+    box-sizing: border-box;
   }
 
   /*EQUIPO*/
@@ -227,9 +229,7 @@
   }
 }
 
-
-@media (min-width: 1200px){
-
+@media (min-width: 1200px) {
   /*EQUIPO*/
 
   .equipo {
@@ -241,5 +241,4 @@
     margin-right: 13.9rem;
     margin-left: 13.9rem;
   }
-
 }
