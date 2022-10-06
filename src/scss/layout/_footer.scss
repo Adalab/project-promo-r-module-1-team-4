@@ -41,3 +41,58 @@
   height: 4.5rem;
   width: 11.59rem;
 }
+
+@media (min-width: 768px) {
+  .footer {
+    padding: 2.4rem 4.5rem 5.6rem;
+    text-align: left;
+    height: 17rem;
+  }
+
+  .menu-li-footer {
+    margin: 0;
+    width: 50%;
+    height: 9rem;
+    text-align: right;
+    position: absolute;
+    right: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 3rem;
+  }
+
+  .copyright {
+    padding-top: 0.6rem;
+    letter-spacing: normal;
+    position: absolute;
+    /* line-height: 1.43;
+      width: 17.2rem; */
+  }
+
+  .logo {
+    position: relative;
+    top: 4.1rem;
+    margin-bottom: 0.4rem;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer {
+    padding: 2.4rem 13.8rem 4.7rem;
+  }
+
+  .menu-li-footer {
+    position: relative;
+
+    // width: 50%;
+    // height: 9rem;
+    // text-align: right;
+    // position: absolute;
+    // right: 4.5rem;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+  }
+}
