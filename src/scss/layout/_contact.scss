@@ -14,5 +14,19 @@
 }
 
 .texto-lema {
-  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  height: 80px;
+  font-weight: 600;
+  text-align: left;
+  align-items: center;
+  padding: 1.4rem 1.5rem 1.6rem 1.5rem;
+  font-size: 1.8rem;
+  color: var(--black);
+  background-color: var(--white);
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: -4rem;
+  box-sizing: border-box;
 }
