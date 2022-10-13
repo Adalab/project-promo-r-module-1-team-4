@@ -12,3 +12,12 @@
   --rubik: "Rubik", sans-serif;
   --uppercase: uppercase;
 }
+
+@mixin title-section {
+  color: var(--blue-green);
+  font-family: var(--rubik);
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 4.5rem;
+  text-transform: var(--uppercase);
+}

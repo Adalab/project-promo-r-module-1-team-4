@@ -1,0 +1,31 @@
+<main class="main">
+    <!-- Meteremos otra foto -->
+    <img title="" src="./assets/images/viajesyfotografia1.jpg" alt="" class="contact-image">
+    <div class="content-contact">
+        <div class="intro">
+            <h2 class="title-contact">Contacto</h2>
+            <p class="text-contact">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc rutrum ullamcorper
+                mauris, vel convallis metus eleifend in.
+            </p>
+            <small class="req">Todos los campos marcados con <span class="ast">*</span> son obligatorios.</small>
+        </div>
+        <form action="https://adalab-server-form.herokuapp.com/" method="" class="form">
+            <div>
+                <label for="text">Nombre completo <span class="ast">*</span></label>
+                <input type="text" id="text" name="text" maxlength="12" pattern="^[a-zA-Z]$" placeholder="Nombre...">
+            </div>
+            <div>
+                <label for="email">Email <span class="ast">*</span></label>
+                <input type="email" id="email" name="email" placeholder="nombre.apellidos@mail.com" />
+            </div>
+            <div>
+                <label for="tel">Teléfono</label>
+                <input type="tel" id="tel" name="tel" pattern="^[0-9]{9}$" placeholder="Ej: 123456789" />
+            </div>
+            <div>
+                <label for="comment">Mensaje <span class="ast">*</span></label>
+                <textarea class="comment" name="comment" rows="4" cols="50" placeholder="¿Qué necesitas?"></textarea>
+            </div>
+            <input type="submit" value="Enviar">
+        </form>
+</main>

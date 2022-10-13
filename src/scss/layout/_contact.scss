@@ -1,32 +1,44 @@
-/* LEMA*/
-
-.contenedor-lema {
-  background-image: url("../images/viajesyfotografia1.jpg");
-  align-items: center;
-  max-width: 100vw;
-  height: 50vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+.content-contact {
+  padding: 0 15px;
 }
 
-.texto-lema {
+.contact-image {
+  height: 300px;
+  width: 100%;
+  padding: 0;
+}
+.intro {
+  padding: 3rem 1.5rem 0 0;
   display: flex;
   flex-direction: column;
-  width: 290px;
-  height: 80px;
-  font-weight: 600;
-  text-align: left;
+  justify-content: center;
   align-items: center;
-  padding: 1.4rem 1.5rem 1.6rem 1.5rem;
-  font-size: 1.8rem;
-  color: var(--black);
-  background-color: var(--white);
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-  margin-bottom: -4rem;
-  box-sizing: border-box;
+}
+
+.text-contact {
+  color: var(--grey-1);
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-top: 1.5rem;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.req {
+  font-size: 1.2rem;
+  margin-top: 3rem;
+  margin-bottom: 5.8rem;
+}
+
+.title-contact {
+  @include title-section;
+}
+
+.ast {
+  font-size: 1.2rem;
+  color: var(--aqua);
+}
+
+.comment {
+  width: 100%;
 }
