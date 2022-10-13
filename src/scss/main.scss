@@ -108,62 +108,6 @@
     opacity: 0.8;
     box-sizing: border-box;
   }
-
-  /*EQUIPO*/
-
-  .equipo {
-    margin: 4.5rem 4.5rem 6rem 4.5rem;
-  }
-
-  .equipo-title {
-    color: var(--blue-green);
-  }
-
-  .equipo .main-p {
-    color: rgba(84, 88, 90, 0.67);
-  }
-
-  .fortalezas-debilidades {
-    margin: 0 4.5rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 4.5rem;
-    padding-top: 0.5rem;
-    padding-bottom: 6rem;
-  }
-
-  .fort-deb-title {
-    color: var(--blue-green);
-    padding-bottom: 0.5rem;
-  }
-
-  .equipo {
-    margin: 4.5rem 4.5rem 6rem 4.5rem;
-  }
-
-  .equipo-title {
-    color: var(--blue-green);
-  }
-
-  .equipo .main-p {
-    color: rgba(84, 88, 90, 0.67);
-  }
-
-  .fortalezas-debilidades {
-    margin: 0 4.5rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 4.5rem;
-    padding-top: 2rem;
-    padding-bottom: 6rem;
-  }
-
-  .fort-deb-title {
-    color: var(--blue-green);
-    padding-bottom: 1.5rem;
-  }
 }
 
 @media (min-width: 1200px) {
@@ -208,17 +152,5 @@
     margin-bottom: 0;
     opacity: 0.8;
     box-sizing: border-box;
-  }
-
-  /*EQUIPO*/
-
-  .equipo {
-    margin-left: 30rem;
-    margin-right: 30rem;
-  }
-
-  .fortalezas-debilidades {
-    margin-right: 13.9rem;
-    margin-left: 13.9rem;
   }
 }

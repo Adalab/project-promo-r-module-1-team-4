@@ -1,15 +1,15 @@
 /* EQUIPO*/
 .equipo {
-    margin: 7rem 1.5rem 3rem 1.5rem;
+    margin: 7rem 1.5rem 3.5rem 1.5rem;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    /*z-index: 100;*/
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+    row-gap: 1.5rem;
   }
   
   .equipo-title {
-    color: var(--aqua);
+    color: var(--blue-green);
     font-family: var(--rubik);
     font-weight: 500;
     font-size: 2.4rem;
@@ -23,6 +23,14 @@
     line-height: 2.4rem;
   }
   
+  .main-p-text {
+    font-style: italic;
+    /*font-weight: 600;*/
+    display: inline-block;
+    width: 100%;
+    padding-top: 1.5rem;
+  }
+
   /* FORTALEZAS-DEBILIDADES*/
   .contenedor-fortalezas-debilidades {
     background-color: rgba(184, 184, 185, 0.2);
@@ -46,12 +54,70 @@
     flex-direction: column;
     gap: 2rem;
     padding-bottom: 4.5rem;
+    margin-bottom: 2rem;
   }
   
   .fort-deb-title {
-    color: #099d8d;
+    color: var(--blue-green);
     font-family: var(--rubik);
     font-weight: 500;
     font-size: 2.2rem;
     line-height: 4.5rem;
   }
+
+  @media (min-width: 768px) {
+
+  .equipo {
+    margin: 4.5rem 4.5rem 6rem 4.5rem;
+  }
+
+  .equipo .main-p {
+    color: rgba(84, 88, 90, 0.67);
+  }
+
+  .fortalezas-debilidades {
+    margin: 0 4.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 6rem;
+    margin-bottom: 2rem;
+  }
+
+  .fortalezas{
+    width: 500px;
+  }
+
+  .debilidades{
+    width: 500px;
+  }
+
+  .fort-deb-title {
+    color: var(--blue-green);
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  
+  .equipo {
+    margin-left: 30rem;
+    margin-right: 30rem;
+  }
+
+  .fortalezas-debilidades {
+    margin-right: 13.9rem;
+    margin-left: 13.9rem;
+    gap: 8rem;
+  }
+
+  .fortalezas{
+    width: 400px;
+  }
+
+  .debilidades{
+    width: 400px;
+  }
+}
