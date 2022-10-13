@@ -33,7 +33,7 @@
 
   /* FORTALEZAS-DEBILIDADES*/
   .contenedor-fortalezas-debilidades {
-    background-color: rgba(184, 184, 185, 0.2);
+    background-color: var(--background-color-fortalezas);
     position: relative;
   }
   
@@ -72,7 +72,7 @@
   }
 
   .equipo .main-p {
-    color: rgba(84, 88, 90, 0.67);
+    color: var(--grey-2);
   }
 
   .fortalezas-debilidades {
