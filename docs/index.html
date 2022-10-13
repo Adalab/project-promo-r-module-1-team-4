@@ -1,68 +1,290 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
-  </head>
+<html lang="en">
 
-  <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
+  <title>Adatravellers</title>
+</head>
 
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
+<body>
+  <header class="navegador-header">
+    <h1 class="titulo-header">Adatravellers</h1>
+    <nav>
+      <ul class="nav-header">
+        <li>
+          <a class="nav-header-link" href="index.html#equipo">Equipo</a>
+        </li>
+        <li>
+          <a class="nav-header-link" href="index.html#quienes-somos"
+            >Quienes somos</a
+          >
+        </li>
+        <li>
+          <a class="nav-header-link" href="./contact.html" target="_blank"
+            >Contacto</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-          </li>
-        </ul>
-      </main>
+  <main>
+    <section class="contenedor-lema">
+      <div class="texto-lema">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+    </section>
+    <section id="equipo" class="contenedor-equipo">
+        <div class="equipo">
+          <h2 class="equipo-title">Equipo</h2>
+          <p class="main-p">
+            Apasionadas por el viaje y la fotografía, nos gusta conocer diferentes lugares del mundo con una cámara en mano. Juntas, hemos emprendido uno de los viajes más importantes hasta el momento: convertirnos en programadoras Front-end. 
+          </p>
+          <p class="main-p">
+            Somos un equipo de mujeres multidisciplinario con un sueño en común, y es tener la capacidad y conocimientos para aportar en el área de la tecnología; trabajando por incrementar la representación femenina en el sector bajo una filosofía común: <span class="main-p-text">Viaja, come, duerme y... ¡programa!</span>
+          </p>
+        </div>
+      </section>
+      <section class="contenedor-fortalezas-debilidades">
+        <div class="white-square"></div>
+        <div class="fortalezas-debilidades">
+          <article class="fortalezas">
+            <h3 class="fort-deb-title">Fortalezas</h3>
+            <p class="main-p">
+              La flexibilidad, la adaptación al cambio y las ganas de aprender son cualidades que todas compartimos. Nuestra actitud colaborativa y empatía en este nuevo camino es nuestra mayor fortaleza, gracias a la cual estamos creciendo juntas tanto emocional como profesionalmente. 
+            </p>
+          </article>
+          <article class="debilidades">
+            <h3 class="fort-deb-title">Debilidades</h3>
+            <p class="main-p">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit,
+              dignissimos iure! Perspiciatis quasi neque error distinctio
+              dolorum! Ducimus eius, quasi ut maiores quae beatae modi, quod
+              obcaecati consequuntur, eligendi quia.
+            </p>
+          </article>
+        </div>
+      </section>
+    <section id="quienes-somos" class="quienes-somos">
+      <h2 class="quienes-somos_title">QUIÉNES SOMOS</h2>
+      <article class="article">
+        <img
+          src="./assets/images/lara-chaouen.png"
+          alt="viajeras"
+          class="personal_picture picture_left"
+        />
+        <div class="text_container_left">
+          <h4 class="names names1">Lara R. Poblet</h4>
+          <p class="main-p">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error esse
+            tenetur laboriosam veniam ducimus nulla suscipit quibusdam, atque
+            fugiat, dolorum, sequi non. Dolore est quibusdam possimus aliquam fugit
+            a unde.
+          </p>
+          <ul class="list_ul list_left">
+            <li class="list_ul_li">
+              <a href="https://twitter.com/lrpoblet" target="_blank"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </li>
+            <li class="list_ul_li">
+              <a href="#" target="_blank"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </li>
+            <li class="list_ul_li">
+              <a href="https://github.com/Lrpoblet" target="_blank"></a
+              ><i class="fa-brands fa-github-alt"></i>
+            </li>
+            <li class="list_ul_li">
+              <a href="mailto:lrpoblet@gmail.com" target="_blank">
+                <i class="fa-solid fa-envelope"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </article>
 
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
+      <article class="article">
+        <img
+          src="./assets/images/japon-nina.jpeg"
+          alt="viajeras"
+          class="personal_picture picture_right"
+        />
+        <div class="text_container_right">
+          <h4 class="names">Nina Wang</h4>
+          <p class="main-p">
+            Soy Nina, una fotógrafa brasileña ubicada en Madrid. También soy UX/UI
+            Designer de formación y mis experiencias me han permitido participar en
+            proyectos donde he podido abordar todas las fases del proceso de diseño
+            y conocer un poco del universo de la programación. Me considero una
+            entusiasta del detalle, el buen gusto y todo aquello que consiga
+            reavivar mis sentidos. Me fascina viajar, la música, la gastronomía y
+            conocer todo tipo de culturas; creo que es la mejor forma de
+            enriquecerme personal y profesionalmente.
+          </p>
+          <ul class="list_ul list_right">
+            <li class="list_ul_li">
+              <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li class="list_ul_li">
+              <a href="#" target="_blank"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </li>
+            <li class="list_ul_li">
+              <a href="#" target="_blank"></a
+              ><i class="fa-brands fa-github-alt"></i>
+            </li>
+            <li class="list_ul_li">
+              <a href="#" target="_blank"> <i class="fa-solid fa-envelope"></i></a>
+            </li>
+          </ul>
+        </div>
+      </article>
 
-        </small>
-      </footer>
+      <article class="article">
+        <img
+          src="./assets/images/peru-tatiana.jpeg"
+          alt="viajeras"
+          class="personal_picture picture_left"
+        />
+        <div class="text_container_left">
+          <h4 class="names names1">Tatiana Arango</h4>
+          <p class="main-p">
+            Soy educadora infantil de profesión, mamá, esposa, y ahora una Adalaber,
+            en definitiva una persona motivada y curiosa por aprender. Toda mi
+            experiencia me ha permitido desarrollar habilidades como la adaptación a
+            los cambios, la autogestión, y la planificación. Me apasiona la
+            tecnología y cómo desde la creación de códigos podemos implementar
+            mejoras a la productividad empresarial o la experiencia de los usuarios.
+          </p>
+          <ul class="list_ul list_left">
+            <li class="list_ul_li">
+              <a href="https://twitter.com/TatianaArangoCa" target="_blank"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </li>
+            <li class="list_ul_li">
+              <a href="https://www.linkedin.com/in/tatianaarango/" target="_blank"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </li>
+            <li class="list_ul_li">
+              <a href="#" target="_blank"></a
+              ><i class="fa-brands fa-github-alt"></i>
+            </li>
+            <li class="list_ul_li">
+              <a href="#" target="_blank"> <i class="fa-solid fa-envelope"></i></a>
+            </li>
+          </ul>
+        </div>
+      </article>
 
-    </div>
-    <script src="./assets/js/main.js"></script>
-  </body>
+      <article class="article">
+        <img
+          src="./assets/images/tailandia-ana.jpg"
+          alt="viajeras"
+          class="personal_picture picture_right"
+        />
+        <div class="text_container_right">
+          <h4 class="names names2">Ana Bollain</h4>
+          <p class="main-p">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error esse
+            tenetur laboriosam veniam ducimus nulla suscipit quibusdam, atque
+            fugiat, dolorum, sequi non. Dolore est quibusdam possimus aliquam fugit
+            a unde.
+          </p>
+          <ul class="list_ul list_right">
+            <li class="list_ul_li">
+              <a href="https://twitter.com/ana_bollain" target="_blank"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </li>
+            <li class="list_ul_li">
+              <a
+                href="https://www.linkedin.com/in/ana-bollain-zubizarreta-5356a584/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </li>
+            <li class="list_ul_li">
+              <a href="#" target="_blank"></a
+              ><i class="fa-brands fa-github-alt"></i>
+            </li>
+            <li class="list_ul_li">
+              <a href="#" target="_blank"> <i class="fa-solid fa-envelope"></i></a>
+            </li>
+          </ul>
+        </div>
+      </article>
+      <article class="article">
+        <img
+          src="./assets/images/atenas_ali.jpg"
+          alt="viajeras"
+          class="personal_picture picture_left"
+        />
+        <div class="text_container_left">
+          <h4 class="names">Alicia Ripoll</h4>
+          <p class="main-p">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error esse
+            tenetur laboriosam veniam ducimus nulla suscipit quibusdam, atque
+            fugiat, dolorum, sequi non. Dolore est quibusdam possimus aliquam fugit
+            a unde.
+          </p>
+          <ul class="list_ul list_left">
+            <li class="list_ul_li">
+              <a href="https://twitter.com/aliripoll" target="_blank"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </li>
+            <li class="list_ul_li">
+              <a href="#" target="_blank"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </li>
+            <li class="list_ul_li">
+              <a href="https://github.com/Aliripoll" target="_blank"
+                ><i class="fa-brands fa-github-alt"></i
+              ></a>
+            </li>
+            <li class="list_ul_li">
+              <a href="mailto:aripollortega@gmail.com" target="_blank">
+                <i class="fa-solid fa-envelope"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+  </main>
+  <footer class="footer">
+      <small class="copyright">Adatravellers &copy; 2022</small>
+      <nav class="navegador-footer">
+          <ul class="menu-li-footer">
+              <li class="list-li-footer">
+                  <a href="./index.html#equipo" class="enlace-footer">Equipo</a>
+              </li>
+              <li class="list-li-footer">
+                  <a href="./index.html#quienes-somos" class="enlace-footer">Quiénes somos</a>
+              </li>
+              <li class="list-li-footer">
+                  <a href="./contact.html" class="enlace-footer" target="_blank">Contacto</a>
+              </li>
+          </ul>
+      </nav>
+      <img src="./assets/images/logo-adalab.png" alt="Logo Adalab" class="logo" />
+  </footer>
+</body>
+
 </html>
