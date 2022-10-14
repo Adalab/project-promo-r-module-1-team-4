@@ -1,7 +1,7 @@
 :root {
   --black: #000;
   --light-grey-blue: rgba(184, 184, 185, 0.1);
-  --background-color-fortalezas: rgba(184, 184, 185, 0.2);
+  --background-color-fortalezas: rgba(237, 230, 223, 0.9);
   --black-8: rgba(0, 0, 0, 0.08);
   --grey-2: rgba(84, 88, 90, 0.67);
   --grey-1: #54585a;
@@ -11,10 +11,11 @@
   --cool-grey: #b8b8b9;
   --rubik: "Rubik", sans-serif;
   --uppercase: uppercase;
+  --color-title: #cd844f; 
 }
 
 @mixin title-section {
-  color: var(--blue-green);
+  color: var(--color-title);
   font-family: var(--rubik);
   font-weight: 500;
   font-size: 2.4rem;
