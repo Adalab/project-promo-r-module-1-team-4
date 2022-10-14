@@ -98,10 +98,19 @@
   }
 }
 @media all and (min-width: 1200px) {
-  .phone {
-    width: 162px;
+  .content-contact {
+    padding: 1.5rem 29.9rem 0;
   }
-  .email {
-    width: 375px;
+
+  // .phone {
+  //   width: 162px;
+  // }
+  // .email {
+  //   width: 375px;
+  // }
+
+  .form__contact--btn {
+    width: 278px;
+    margin-bottom: 12rem;
   }
 }
