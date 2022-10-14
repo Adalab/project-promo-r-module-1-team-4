@@ -1,4 +1,8 @@
 #equipo,
 #quienes-somos {
   scroll-margin-top: 120px;
+
+  @media (min-width: 768px) {
+    scroll-margin-top: 50px;
+  }
 }
