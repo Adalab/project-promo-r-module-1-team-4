@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="./assets/images/favicon-contact.png">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap"
     rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;1,500&display=swap" rel="stylesheet" />
@@ -16,52 +17,62 @@
 
 <body>
   <header class="navegador-header">
-    <h1 class="titulo-header">Adatravellers</h1>
+    <a href="/index.html" class="titulo-header">
+      <h1 class="titulo-header">Adatravellers</h1></a
+    >
+
     <nav>
       <ul class="nav-header">
         <li>
           <a class="nav-header-link" href="index.html#equipo">Equipo</a>
         </li>
         <li>
-          <a class="nav-header-link" href="index.html#quienes-somos">Quienes somos</a>
+          <a class="nav-header-link" href="index.html#quienes-somos"
+            >Quienes somos</a
+          >
         </li>
         <li>
-          <a class="nav-header-link" href="./contactpage.html" target="_blank">Contacto</a>
+          <a class="nav-header-link" href="./contactpage.html" target="_blank"
+            >Contacto</a
+          >
         </li>
       </ul>
     </nav>
   </header>
+
   <main class="main">
-      <!-- Meteremos otra foto -->
-      <img title="" src="./assets/images/viajesyfotografia1.jpg" alt="" class="contact-image">
+      <section class="contact-image"></section>
       <div class="content-contact">
-          <div class="intro">
-              <h2 class="title-contact">Contacto</h2>
-              <p class="text-contact">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc rutrum ullamcorper
-                  mauris, vel convallis metus eleifend in.
-              </p>
-              <small class="req">Todos los campos marcados con <span class="ast">*</span> son obligatorios.</small>
-          </div>
-          <form  action="https://adalab-server-form.herokuapp.com/" method="" class="form">
+          <h2 class="title-contact">Contacto</h2>
+          <p class="text-contact">Puedes rellenar nuestro formulario online para
+              enviar un mensaje a nuestro equipo Adatravellers.
+          </p>
+          <small class="req">Todos los campos marcados con <span class="ast">*</span> son obligatorios.</small>
+
+          <form action="https://adalab-server-form.herokuapp.com/" method="" class="form">
               <div class="form__contact">
-                  <label class="form__contact--label"for="text">Nombre completo <span class="ast">*</span></label>
-                  <input class="form__contact--input"  type="text" id="text" name="text" maxlength="12" pattern="^[a-zA-Z]$" placeholder="Nombre...">
+                  <label class="form__contact--label" for="text">Nombre completo <span class="ast">*</span></label>
+                  <input class="form__contact--input" type="text" id="text" name="text" placeholder="Nombre..." required>
               </div>
               <div class="form__contact">
-                  <label  class="form__contact--label " for="email">Email <span class="ast">*</span></label>
-                  <input class="form__contact--input "  type="email" id="email" name="email" placeholder="nombre.apellidos@mail.com" />
+                  <label class="form__contact--label " for="email">Email <span class="ast">*</span></label>
+                  <input class="form__contact--input " type="email" id="email" name="email"
+                      placeholder="nombre.apellidos@mail.com" required />
               </div>
               <div class="form__contact">
-                  <label  class="form__contact-- "  for="tel">     Teléfono</label>
-                  <input class="form__contact--input "  type="tel" id="tel" name="tel" pattern="^[0-9]{9}$" placeholder="Ej: 123456789" />
+                  <label class="form__contact--label " for="tel"> Teléfono</label>
+                  <input class="form__contact--input " type="tel" id="tel" name="tel" pattern="^[0-9]{9}$"
+                      placeholder="Ej: 123456789" />
               </div>
               <div class="form__contact">
                   <label class="form__contact--label" for="comment">Mensaje <span class="ast">*</span></label>
-                  <textarea class="comment" name="comment" rows="5" cols="70" placeholder="¿Qué necesitas?"></textarea>
-                   <input class="form__contact--btn" type="submit" value="Enviar">
+                  <textarea class="comment" name="comment" rows="5" cols="70" placeholder="¿Qué necesitas?"
+                      required></textarea>
+                  <input class="form__contact--btn" type="submit" value="Enviar">
               </div>
-             
+
           </form>
+      </div>
   </main>
   <footer class="footer">
       <small class="copyright">Adatravellers &copy; 2022</small>
