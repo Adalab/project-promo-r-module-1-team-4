@@ -43,3 +43,34 @@
   color: var(--cool-grey);
   font-size: 18px;
 }
+
+@media (min-width: 768px) {
+  .navegador-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 4.5rem 1.4rem;
+    height: 6rem;
+  }
+  .titulo-header {
+    padding: 0;
+  }
+  .nav-header {
+    background-color: var(--blue-green);
+    margin-right: 2.81rem;
+  }
+  .nav-header-link {
+    margin: 1.125rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  /*Header*/
+  .navegador-header {
+    padding: 1.5rem 8.875rem 1.4rem;
+    width: 100%;
+  }
+  .nav-header {
+    margin-right: 8.81rem;
+  }
+}
