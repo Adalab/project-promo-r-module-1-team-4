@@ -11,10 +11,7 @@
 }
 
 .quienes-somos_title {
-  font-family: var(--rubik);
-  color: var(--blue-green);
-  font-size: 2.4rem;
-  font-weight: 500;
+  @include title-section;
 }
 .article {
   display: flex;
@@ -35,7 +32,7 @@
 }
 
 .names {
-  color: var(--black);
+  color: var(--dark-green);
   font-size: 2rem;
   line-height: 4.5rem;
 }
@@ -43,9 +40,10 @@
 .personal_picture {
   width: 18rem;
   height: 18rem;
-  border: 0.5rem rgb(113, 77, 56);
-  border-style: groove;
-  object-fit: cover;
+  background-color: white;
+  padding: 10px 10px 50px 10px;
+  border: 1px solid #bfbfbf;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
 }
 
 .list_ul {
@@ -62,7 +60,7 @@
 .list_ul_li:not(:last-child):after {
   content: "·";
   font-size: 2rem;
-  color: #099d8d;
+  color: var(--dark-green);
   margin: 0 auto;
   transform: translate(170%, -20%);
 }
@@ -100,9 +98,7 @@
   .personal_picture {
     width: 20.3rem;
     height: 20.3rem;
-    /*padding-right: 3.1rem;*/
   }
-
   .picture_right {
     order: 1;
   }
