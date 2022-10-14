@@ -9,23 +9,24 @@
             </p>
             <small class="req">Todos los campos marcados con <span class="ast">*</span> son obligatorios.</small>
         </div>
-        <form action="https://adalab-server-form.herokuapp.com/" method="" class="form">
-            <div>
-                <label for="text">Nombre completo <span class="ast">*</span></label>
-                <input type="text" id="text" name="text" maxlength="12" pattern="^[a-zA-Z]$" placeholder="Nombre...">
+        <form  action="https://adalab-server-form.herokuapp.com/" method="" class="form">
+            <div class="form__contact">
+                <label class="form__contact--label"for="text">Nombre completo <span class="ast">*</span></label>
+                <input class="form__contact--input"  type="text" id="text" name="text" maxlength="12" pattern="^[a-zA-Z]$" placeholder="Nombre...">
             </div>
-            <div>
-                <label for="email">Email <span class="ast">*</span></label>
-                <input type="email" id="email" name="email" placeholder="nombre.apellidos@mail.com" />
+            <div class="form__contact">
+                <label  class="form__contact--label " for="email">Email <span class="ast">*</span></label>
+                <input class="form__contact--input "  type="email" id="email" name="email" placeholder="nombre.apellidos@mail.com" />
             </div>
-            <div>
-                <label for="tel">Teléfono</label>
-                <input type="tel" id="tel" name="tel" pattern="^[0-9]{9}$" placeholder="Ej: 123456789" />
+            <div class="form__contact">
+                <label  class="form__contact-- "  for="tel">     Teléfono</label>
+                <input class="form__contact--input "  type="tel" id="tel" name="tel" pattern="^[0-9]{9}$" placeholder="Ej: 123456789" />
             </div>
-            <div>
-                <label for="comment">Mensaje <span class="ast">*</span></label>
-                <textarea class="comment" name="comment" rows="4" cols="50" placeholder="¿Qué necesitas?"></textarea>
+            <div class="form__contact">
+                <label class="form__contact--label" for="comment">Mensaje <span class="ast">*</span></label>
+                <textarea class="comment" name="comment" rows="5" cols="70" placeholder="¿Qué necesitas?"></textarea>
+                 <input class="form__contact--btn" type="submit" value="Enviar">
             </div>
-            <input type="submit" value="Enviar">
+           
         </form>
 </main>
