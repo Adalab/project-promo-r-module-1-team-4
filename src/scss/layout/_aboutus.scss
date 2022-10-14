@@ -12,7 +12,7 @@
 
 .quienes-somos_title {
   font-family: var(--rubik);
-  color: #099d8d;
+  color: var(--blue-green);
   font-size: 2.4rem;
   font-weight: 500;
 }
@@ -35,7 +35,7 @@
 }
 
 .names {
-  color: black;
+  color: var(--black);
   font-size: 2rem;
   line-height: 4.5rem;
 }
@@ -69,7 +69,7 @@
 
 .fa-brands,
 .fa-solid {
-  color: #099d8d;
+  color: var(--blue-green);
   font-size: 1.6rem;
 }
 
