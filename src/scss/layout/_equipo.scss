@@ -1,4 +1,5 @@
 /* EQUIPO*/
+
 .equipo {
     margin: 7rem 3rem 3.5rem 3rem;
     text-align: center;
@@ -9,32 +10,26 @@
   }
   
   .equipo-title {
-    color: var(--blue-green);
-    font-family: var(--rubik);
-    font-weight: 500;
-    font-size: 2.4rem;
-    line-height: 4.5rem;
-    text-transform: var(--uppercase);
+    @include title-section;
   }
   
   .main-p {
-    color: var(--grey-1);
-    font-size: 1.6rem;
-    line-height: 2.4rem;
+    @include par-section;
   }
   
   .main-p-text {
     font-style: italic;
-    /*font-weight: 600;*/
     display: inline-block;
     width: 100%;
     padding-top: 1.5rem;
   }
 
   /* FORTALEZAS-DEBILIDADES*/
+
   .contenedor-fortalezas-debilidades {
     background-color: var(--background-color-fortalezas);
     position: relative;
+    overflow: hidden;
   }
   
   .white-square {
@@ -44,7 +39,6 @@
     position: relative;
     margin: 0 auto;
     transform: translateY(-50%) rotate(45deg);
-    overflow: hidden;
   }
   
   .fortalezas-debilidades {
@@ -54,16 +48,15 @@
     flex-direction: column;
     gap: 2rem;
     padding-bottom: 4.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
   
   .fort-deb-title {
-    color: var(--blue-green);
-    font-family: var(--rubik);
-    font-weight: 500;
-    font-size: 2.2rem;
-    line-height: 4.5rem;
+    @include title-section;
+    text-transform: none;
   }
+
+  /*MEDIA QUERIES FOR TABLET*/
 
   @media (min-width: 768px) {
 
@@ -99,6 +92,8 @@
     padding-bottom: 1.5rem;
   }
 }
+
+/*MEDIA QUERIES FOR DESKTOP*/
 
 @media (min-width: 1200px) {
   

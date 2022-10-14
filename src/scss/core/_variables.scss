@@ -21,3 +21,10 @@
   line-height: 4.5rem;
   text-transform: var(--uppercase);
 }
+
+
+@mixin par-section {
+  color: var(--grey-1);
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
