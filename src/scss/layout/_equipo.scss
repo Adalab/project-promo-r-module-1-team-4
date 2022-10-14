@@ -22,6 +22,25 @@
     display: inline-block;
     width: 100%;
     padding-top: 2rem;
+    animation: fade 3s infinite alternate;
+  }
+
+  @keyframes fade {
+    0% {
+      color: rgb(64, 95, 64);
+    }
+    25% {
+      color: rgb(112, 151, 174);
+    }
+    50% {
+      color: rgb(197, 144, 46);
+    }
+    75% {
+      color: rgba(119, 81, 40, 0.974);
+    }
+    100% {
+      color: rgb(189, 175, 150);
+    }
   }
 
   /* FORTALEZAS-DEBILIDADES*/
