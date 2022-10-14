@@ -11,7 +11,9 @@
   --cool-grey: #b8b8b9;
   --rubik: "Rubik", sans-serif;
   --uppercase: uppercase;
-  --color-title: #cd844f; 
+  --color-title:: #cd844f;
+  --dark-green: #59634a;
+  --dark-brown: #824f34;
 }
 
 @mixin title-section {
@@ -22,7 +24,6 @@
   line-height: 4.5rem;
   text-transform: var(--uppercase);
 }
-
 
 @mixin par-section {
   color: var(--grey-1);
