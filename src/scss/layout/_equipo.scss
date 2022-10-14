@@ -1,12 +1,12 @@
 /* EQUIPO*/
 
 .equipo {
-    margin: 7rem 3rem 3.5rem 3rem;
-    text-align: center;
+    margin: 7rem 3rem 4rem 3rem;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 3fr;
-    row-gap: 1.5rem;
+    row-gap: 2rem;
+    text-align: center;
   }
   
   .equipo-title {
@@ -21,7 +21,7 @@
     font-style: italic;
     display: inline-block;
     width: 100%;
-    padding-top: 1.5rem;
+    padding-top: 2rem;
   }
 
   /* FORTALEZAS-DEBILIDADES*/
@@ -42,18 +42,19 @@
   }
   
   .fortalezas-debilidades {
-    margin: 0 3rem;
+    margin: 0 3rem 3rem 3rem;
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    padding-bottom: 4.5rem;
-    margin-bottom: 3rem;
+    gap: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
   }
   
   .fort-deb-title {
     @include title-section;
     text-transform: none;
+    padding-bottom: 0.5rem;
   }
 
   /*MEDIA QUERIES FOR TABLET*/
@@ -61,7 +62,7 @@
   @media (min-width: 768px) {
 
   .equipo {
-    margin: 4.5rem 4.5rem 6rem 4.5rem;
+    margin: 4.5rem 4.5rem 5rem 4.5rem;
   }
 
   .equipo .main-p {
@@ -70,25 +71,21 @@
 
   .fortalezas-debilidades {
     margin: 0 4.5rem;
-    display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 4.5rem;
-    padding-top: 0.5rem;
-    padding-bottom: 6rem;
-    margin-bottom: 2rem;
+    padding-bottom: 5rem;
   }
 
   .fortalezas{
-    width: 500px;
+    width: 450px;
   }
 
   .debilidades{
-    width: 500px;
+    width: 450px;
   }
 
   .fort-deb-title {
-    color: var(--blue-green);
     padding-bottom: 1.5rem;
   }
 }
