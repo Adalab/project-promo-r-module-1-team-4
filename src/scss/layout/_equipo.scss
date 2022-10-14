@@ -22,24 +22,24 @@
     display: inline-block;
     width: 100%;
     padding-top: 2rem;
-    animation: fade 3s infinite alternate;
+    animation: fade 3s infinite alternate-reverse;
   }
 
   @keyframes fade {
     0% {
-      color: rgb(64, 95, 64);
+      color: #59634a;
     }
     25% {
-      color: rgb(112, 151, 174);
+      color: #80989c;
     }
     50% {
-      color: rgb(197, 144, 46);
+      color: #cd844f;
     }
     75% {
-      color: rgba(119, 81, 40, 0.974);
+      color: #824f34;
     }
     100% {
-      color: rgb(189, 175, 150);
+      color: #ede6df;
     }
   }
 
