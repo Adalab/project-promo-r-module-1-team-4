@@ -1,4 +1,3 @@
-/* FOOTER */
 .footer {
   text-align: center;
   border-top: solid 1px var(--cool-grey);
@@ -9,7 +8,6 @@
 .copyright {
   color: var(--cool-grey);
   font-size: 1.4rem;
-  /* height: 2rem; */
   margin: 0 0 2rem;
   line-height: 1.43;
 }
@@ -34,7 +32,7 @@
 }
 
 .enlace-footer:hover {
-  color: var(--cool-grey);
+  color: #cd844f;
 }
 
 .logo {
@@ -66,8 +64,6 @@
     padding-top: 0.6rem;
     letter-spacing: normal;
     position: absolute;
-    /* line-height: 1.43;
-      width: 17.2rem; */
   }
 
   .logo {
