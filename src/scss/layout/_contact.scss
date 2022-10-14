@@ -3,9 +3,18 @@
 }
 
 .contact-image {
-  width: 100%;
-  height: 300px;
+  background-image: url("../images/cabecera_contacto_cropped.jpg");
+  align-items: center;
+  max-width: 100vw;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
+
 .intro {
   padding: 3rem 1.5rem;
   display: flex;
