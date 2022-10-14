@@ -19,6 +19,11 @@
   text-transform: uppercase;
   text-decoration: none;
 }
+.titulo-header:hover {
+  color: var(--color-title);
+  font-size: 18px;
+}
+
 .nav-header {
   display: flex;
   background-color: var(--aqua);
@@ -41,7 +46,7 @@
   text-transform: uppercase;
 }
 .nav-header-link:hover {
-  color: var(--cool-grey);
+  color: var(--color-title);
   font-size: 18px;
 }
 
