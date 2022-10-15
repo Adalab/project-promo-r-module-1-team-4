@@ -84,6 +84,9 @@
   width: 100%;
   cursor: pointer;
 }
+.form__contact--btn:hover {
+  color: var(--color-title);
+}
 @media all and (min-width: 768px) {
   .content-contact {
     display: flex;
