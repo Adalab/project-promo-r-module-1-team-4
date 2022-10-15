@@ -2,7 +2,6 @@
   padding: 3rem 1.5rem 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -59,6 +58,7 @@
   width: 100%;
   padding: 5px;
 }
+
 .form__contact--label {
   margin-top: 2px;
   font-size: 1.4rem;
@@ -88,9 +88,7 @@
     color: #cd844f;
   }
 }
-.form__contact--btn:hover {
-  color: var(--color-title);
-}
+
 @media all and (min-width: 768px) {
   .content-contact {
     display: flex;
@@ -101,7 +99,7 @@
 
   .form__contact--btn {
     width: 206px;
-    margin-left: 16em;
+    margin-left: 31.5rem;
   }
 }
 @media all and (min-width: 1200px) {
@@ -109,18 +107,25 @@
     padding: 4.5rem 29.9rem 0;
   }
 
-  // .form {
-  //   display: grid;
-  //   grid-template-rows: 1f 1f 1f 1f 1f;
-  //   grid-template-columns: 1f 1f;
-  // }
+  .form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "name name name" "mail mail phone" "msg msg msg";
 
-  // .phone {
-  //   width: 162px;
-  // }
-  // .email {
-  //   width: 375px;
-  // }
+    .name {
+      grid-area: name;
+    }
+    .mail {
+      grid-area: mail;
+    }
+    .phone {
+      grid-area: phone;
+    }
+    .msg {
+      grid-area: msg;
+    }
+  }
 
   .form__contact--btn {
     width: 278px;
