@@ -1,4 +1,4 @@
-.navegador-header {
+.header {
   height: 100%;
   background-color: var(--blue-green);
   position: sticky;
@@ -7,7 +7,7 @@
   width: 100%;
   opacity: 95%;
 }
-.titulo-header {
+.title-header {
   color: var(--white);
   font-size: 16px;
   text-align: center;
@@ -18,7 +18,7 @@
   text-transform: uppercase;
   text-decoration: none;
 }
-.titulo-header:hover {
+.title-header:hover {
   color: var(--color-title);
 }
 
@@ -48,14 +48,14 @@
 }
 
 @media (min-width: 768px) {
-  .navegador-header {
+  .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 4.5rem 1.4rem;
     height: 6rem;
   }
-  .titulo-header {
+  .title-header {
     padding: 0;
   }
   .nav-header {
@@ -69,7 +69,7 @@
 
 @media (min-width: 1200px) {
   /*Header*/
-  .navegador-header {
+  .header {
     padding: 1.5rem 8.875rem 1.4rem;
     width: 100%;
   }
