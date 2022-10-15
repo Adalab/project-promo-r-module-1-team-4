@@ -43,7 +43,7 @@
   background-color: white;
   padding: 10px 10px 50px 10px;
   border: 1px solid #bfbfbf;
-  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
+  box-shadow: 10px 10px 30px rgba(72, 47, 22, 0.8);
 }
 
 .list_ul {
@@ -101,5 +101,11 @@
   }
   .picture_right {
     order: 1;
+  }
+}
+@media (min-width: 1200px) {
+  .quienes-somos {
+    padding-left: 13.8rem;
+    padding-right: 13.8rem;
   }
 }
