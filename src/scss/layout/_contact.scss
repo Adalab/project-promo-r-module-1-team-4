@@ -83,6 +83,10 @@
   text-transform: uppercase;
   width: 100%;
   cursor: pointer;
+
+  &:hover {
+    color: #cd844f;
+  }
 }
 .form__contact--btn:hover {
   color: var(--color-title);
