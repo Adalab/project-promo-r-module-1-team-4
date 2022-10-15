@@ -38,12 +38,12 @@
 }
 
 .personal_picture {
-  width: 18rem;
+  width: 16rem;
   height: 18rem;
   background-color: white;
-  padding: 10px 10px 50px 10px;
   border: 1px solid #bfbfbf;
   box-shadow: 10px 10px 30px rgba(72, 47, 22, 0.8);
+  padding: 10px 10px 45px 10px;
 }
 
 .list_ul {
@@ -96,7 +96,7 @@
     text-align: right;
   }
   .personal_picture {
-    width: 20.3rem;
+    width: 17.6rem;
     height: 20.3rem;
   }
   .picture_right {
@@ -107,5 +107,10 @@
   .quienes-somos {
     padding-left: 13.8rem;
     padding-right: 13.8rem;
+  }
+  .personal_picture {
+    width: 23rem;
+    height: 25.8rem;
+    padding: 15px 15px 55px 15px;
   }
 }
