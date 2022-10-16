@@ -11,7 +11,8 @@
   --cool-grey: #b8b8b9;
   --rubik: "Rubik", sans-serif;
   --uppercase: uppercase;
-  --color-title: #cd844f;
+  --color-title: #824f34;
+  --color-title-sec: #cd844f;
   --dark-green: #59634a;
   --dark-brown: #824f34;
 }
@@ -23,6 +24,14 @@
   font-size: 2.4rem;
   line-height: 4.5rem;
   text-transform: var(--uppercase);
+}
+
+@mixin title-section-sec {
+  color: var(--color-title-sec);
+  font-family: var(--rubik);
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 4.5rem;
 }
 
 @mixin par-section {

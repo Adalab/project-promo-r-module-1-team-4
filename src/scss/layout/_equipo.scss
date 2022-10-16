@@ -71,8 +71,7 @@
   }
   
   .fort-deb-title {
-    @include title-section;
-    text-transform: none;
+    @include title-section-sec;
     padding-bottom: 0.5rem;
   }
 
