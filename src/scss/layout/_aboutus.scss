@@ -108,13 +108,17 @@
   }
 }
 @media (min-width: 1200px) {
-  .quienes-somos {
-    padding-left: 13.8rem;
-    padding-right: 13.8rem;
-  }
   .personal_picture {
     width: 23rem;
     height: 25.8rem;
     padding: 15px 15px 55px 15px;
+  }
+  .article-left {
+    padding-right: 30rem;
+    padding-left: 14rem;
+  }
+  .article-right {
+    padding-left: 30rem;
+    padding-right: 14rem;
   }
 }
