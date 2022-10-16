@@ -1,6 +1,17 @@
+.adatravellers-header{
+    background-color: var(--dark-green);
+    opacity: 0.9;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .adatravellers-main{
-    width: 100vw;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,12 +19,10 @@
 
 .adatraveller-title{
     font-family: var(--rubik);
-    color: var(--dark-green);
+    color: #fff;
     font-weight: 500;
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    width: 100%;
-    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;    
 }
 
 .adatraveller {
@@ -22,7 +31,8 @@
     justify-content: center;
     align-items: center;
     gap: 4.5rem;
-    padding-top: 4rem;
+    padding-top: 10rem;
+    padding-bottom: 6rem;
 }
 
 .adatraveller-frame {
@@ -33,10 +43,10 @@
 }
 
 .adatraveller-frame-image {
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 26rem;
     background-color: white;
-    padding: 1rem 1rem 3rem 1rem;
+    padding: 1.5rem 1.5rem 4rem 1.5rem;
     box-shadow: 10px 10px 30px rgba(72, 47, 22, 0.8);
     object-fit: cover;
     object-position: center;
@@ -45,10 +55,11 @@
 .adatraveller-frame-text {
     position: absolute;
     bottom: 0;
-    transform: translateY(-70%);
+    transform: translateY(-50%);
     font-family: var(--rubik);
     color: var(--dark-green);
     font-weight: 500;
+    font-size: 1.6rem;
 }
 
 .adatravellers {
@@ -62,8 +73,8 @@
     .adatraveller {
         flex-direction: row;
         flex-wrap: wrap;
-        width: 50%;
-        gap: 10rem;
+        width: 100%;
+        gap: 6rem;
     }
 
 }
@@ -71,6 +82,10 @@
 /*MEDIA QUERIES FOR DESKTOP*/
 
 @media (min-width: 1200px){
+
+.adatravellers-header{
+    display: none;
+}
 
 .adatraveller{
     display: none;
