@@ -69,6 +69,10 @@
 .fa-solid {
   color: var(--blue-green);
   font-size: 1.6rem;
+
+  &:hover {
+    color: var(--color-title-sec);
+  }
 }
 
 @media (min-width: 768px) {
