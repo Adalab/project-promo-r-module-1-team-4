@@ -19,7 +19,7 @@
   text-decoration: none;
 }
 .title-header:hover {
-  color: var(--color-title);
+  color: var(--color-title-sec);
 }
 
 .nav-header {
@@ -44,7 +44,7 @@
   text-transform: uppercase;
 }
 .nav-header-link:hover {
-  color: var(--color-title);
+  color: var(--color-title-sec);
 }
 
 @media (min-width: 768px) {
