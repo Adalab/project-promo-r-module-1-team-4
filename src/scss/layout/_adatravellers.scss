@@ -1,0 +1,91 @@
+.adatravellers-main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.adatraveller-title{
+    font-family: var(--rubik);
+    color: var(--dark-green);
+    font-weight: 500;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+}
+
+.adatraveller {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4.5rem;
+    padding-top: 4rem;
+}
+
+.adatraveller-frame {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.adatraveller-frame-image {
+    width: 15rem;
+    height: 15rem;
+    background-color: white;
+    padding: 1rem 1rem 3rem 1rem;
+    box-shadow: 10px 10px 30px rgba(72, 47, 22, 0.8);
+    object-fit: cover;
+    object-position: center;
+}
+
+.adatraveller-frame-text {
+    position: absolute;
+    bottom: 0;
+    transform: translateY(-70%);
+    font-family: var(--rubik);
+    color: var(--dark-green);
+    font-weight: 500;
+}
+
+.adatravellers {
+    display: none;
+}
+
+
+/*MEDIA QUERIES FOR TABLET*/
+
+@media (min-width: 768px){
+    .adatraveller {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 50%;
+        gap: 10rem;
+    }
+
+}
+
+/*MEDIA QUERIES FOR DESKTOP*/
+
+@media (min-width: 1200px){
+
+.adatraveller{
+    display: none;
+}
+
+.adatravellers{
+    display: block;
+    /*background-color: var(--dark-brown);*/
+    height: 100vh;
+}
+
+.adatravellers-image {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+}
