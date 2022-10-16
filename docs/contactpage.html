@@ -16,9 +16,9 @@
 </head>
 
 <body>
-  <header class="navegador-header">
-    <a href="/index.html" class="titulo-header">
-      <h1 class="titulo-header">Adatravellers</h1></a
+  <header class="header">
+    <a href="/index.html" class="title-header">
+      <h1 class="title-header">Adatravellers</h1></a
     >
 
     <nav>
@@ -49,33 +49,37 @@
           </p>
           <small class="req">Todos los campos marcados con <span class="ast">*</span> son obligatorios.</small>
 
-          <form action="https://adalab-server-form.herokuapp.com/" method="" class="form">
-              <div class="form__contact">
-                  <label class="form__contact--label" for="text">Nombre completo <span class="ast">*</span></label>
-                  <input class="form__contact--input" type="text" id="text" name="text" placeholder="Nombre..." required>
+          <form action="https://adalab-server-form.herokuapp.com/" method="">
+              <div class="form">
+                  <div class="form__contact name">
+                      <label class="form__contact--label" for="text">Nombre completo <span class="ast">*</span></label>
+                      <input class="form__contact--input" type="text" id="text" name="text" placeholder="Nombre..."
+                          required>
+                  </div>
+                  <div class="form__contact mail">
+                      <label class="form__contact--label " for="email">Email <span class="ast">*</span></label>
+                      <input class="form__contact--input " type="email" id="email" name="email"
+                          placeholder="nombre.apellidos@mail.com" required />
+                  </div>
+                  <div class="form__contact phone">
+                      <label class="form__contact--label " for="tel"> Teléfono</label>
+                      <input class="form__contact--input " type="tel" id="tel" name="tel" pattern="^[0-9]{9}$"
+                          placeholder="Ej: 123456789" />
+                  </div>
+                  <div class="form__contact msg">
+                      <label class="form__contact--label" for="comment">Mensaje <span class="ast">*</span></label>
+                      <textarea class="comment" name="comment" rows="5" cols="70" placeholder="¿Qué necesitas?"
+                          required></textarea>
+                  </div>
               </div>
-              <div class="form__contact">
-                  <label class="form__contact--label " for="email">Email <span class="ast">*</span></label>
-                  <input class="form__contact--input " type="email" id="email" name="email"
-                      placeholder="nombre.apellidos@mail.com" required />
-              </div>
-              <div class="form__contact">
-                  <label class="form__contact--label " for="tel"> Teléfono</label>
-                  <input class="form__contact--input " type="tel" id="tel" name="tel" pattern="^[0-9]{9}$"
-                      placeholder="Ej: 123456789" />
-              </div>
-              <div class="form__contact">
-                  <label class="form__contact--label" for="comment">Mensaje <span class="ast">*</span></label>
-                  <textarea class="comment" name="comment" rows="5" cols="70" placeholder="¿Qué necesitas?"
-                      required></textarea>
-                  <input class="form__contact--btn" type="submit" value="Enviar">
-              </div>
+              <input class="form__contact--btn" type="submit" value="Enviar">
 
           </form>
       </div>
   </main>
   <footer class="footer">
-      <small class="copyright">Adatravellers &copy; 2022</small>
+      <small><a href="./assets/images/viajesyfotografia1.jpg" target="_blank" class="copyright">Adatravellers &copy;
+              2022</a></small>
       <nav class="navegador-footer">
           <ul class="menu-li-footer">
               <li class="list-li-footer">
